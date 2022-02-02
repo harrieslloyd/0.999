@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#spacer {
+    width: 100vh;
+    height: 100px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#unique p {
+    position: absolute;
+    top: 445vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header,#unique,footer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+header h1 {
+    font-size: 60px;
+}
+
+h1 {
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.animation{
+    height: 100vh;
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    position: relative;
+    overflow: hidden;
+}
+.circle {
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.simpleMain {
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#s1 {
+    font-size: 60px;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    opacity: 0;
+}
+#s2 {
+    font-size: 60px;
+    position: absolute;
+    left: 52.5%;
+    top: 100%;
+    opacity: 0;
+}
+#s3 {
+    font-size: 60px;
+    position: absolute;
+    left: 49%;
+    top: 100%;
+    opacity: 0;
+}
+#simpleProofDec {
+    font-size: 60px;
+    position: absolute;
+    left: 51.7%;
+    top: 100%;
+    opacity: 0;
+    width: 1000px;
+}
+
+#equals {
+    font-size: 60px;
+    position: absolute;
+    left: 94%;
+    top: 100%;
+    opacity: 0;   
+    width: 1000px;
+}
+#s999 {
+    font-size: 60px;
+    position: absolute;
+    left: 94%;
+    top: 100%;
+    opacity: 0;   
+    width: 1000px;
+}
+
+#scroll {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
