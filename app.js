@@ -15,7 +15,6 @@ const circleScene = new ScrollMagic.Scene({
     triggerHook: 0
 })
 .setTween(tweenCircle)
-.addIndicators()
 .setPin('#animation1')
 .addTo(controller)
 
@@ -125,6 +124,5 @@ const simpleScene = new ScrollMagic.Scene({
     triggerHook: 0
 })
 .setTween(tweenSimple)
-.addIndicators()
 .setPin('#animation2')
 .addTo(controller)
