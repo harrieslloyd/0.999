@@ -120,7 +120,7 @@ tweenSimple.add(
 
 const simpleScene = new ScrollMagic.Scene({
     triggerElement: '#animation2',
-    duration: 3000,
+    duration: 5000,
     triggerHook: 0
 })
 .setTween(tweenSimple)
