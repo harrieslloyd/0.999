@@ -5,6 +5,10 @@
     height: 100px;
 }
 
+body {
+    background-color: white;
+}
+
 *{
     margin: 0;
     padding: 0;
